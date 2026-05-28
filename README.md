@@ -1,6 +1,6 @@
 # MLWG tutorial 6
 
-Tutorial materials on inductive biases, ensembling and confidence calibration.
+Tutorial materials on inductive biases, ensembling and confidence calibration, for the 6th session of the [MIT PSFC Machine Learning Working Group](https://github.com/MIT-PSFC/mlwg-store).
 
 > **Disclaimer!** The material was made for illustrative purposes, with its fair share of "vibe coding" in the notebooks: it's checked for correctness, but the implementations are not necessarily the best. For calibration-related functionality, I'd recommend [netcal](https://github.com/EFS-OpenSource/calibration-framework).
 
@@ -33,5 +33,5 @@ Data lives in `synthetic/data/` (already committed to the repository as `.npz` -
 
 Per-timestep confinement-state classification (L / D / H) on TCV shots, with XGBoost + 1D CNN ensembling and uncertainty calibration.
 
-1. `data/download_dataset.ipynb` - run first; downloads a subset from [Zenodo](https://zenodo.org/records/16631053) into `TCV/parquets/`.
+1. `download_dataset.ipynb` - run first; downloads a subset from [Zenodo](https://zenodo.org/records/16631053) into `TCV/parquets/`.
 2. `tcv_conf_state.ipynb` - the tutorial.
