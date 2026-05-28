@@ -1,0 +1,18 @@
+[project]
+name = "mlwg_6"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "xgboost",
+    "torch",
+    "matplotlib",
+    "scikit-learn",
+    "tqdm",
+    "pandas",
+    "pyarrow",
+    "notebook",
+    "ipykernel",
+    "ipywidgets"
+]
